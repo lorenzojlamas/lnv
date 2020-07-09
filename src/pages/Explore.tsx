@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 
-export class Home extends Component {
+export class Explore extends Component {
 
     render() {
         return (
             <div>
                 <p>
-                    Quedate en /home
+                    Explore
                 </p>
             </div>
         );
