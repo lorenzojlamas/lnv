@@ -41,6 +41,8 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
+    color: black;
+    background-color: black;
 }
 
 footer {
