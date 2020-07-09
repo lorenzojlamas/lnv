@@ -1,11 +1,8 @@
   
 import React, { Component } from 'react';
-// import { Link } from 'react-router-dom';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav'
-import NavDropdown from 'react-bootstrap/NavDropdown';
 import { LinkContainer } from 'react-router-bootstrap'
-{/* <Link to="/home" className="link">HOme</Link> */}
 
 export class NavBar extends Component {
 
@@ -20,17 +17,38 @@ export class NavBar extends Component {
     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
     <Navbar.Collapse id="responsive-navbar-nav">
       <Nav className="mr-auto">
-        <Nav.Link href="#pricing">Pricing</Nav.Link>
-        <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
-          <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-          <NavDropdown.Divider />
-          <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
-        </NavDropdown>
+        <LinkContainer to= "/discord">
+          <Nav.Link>
+            Discord
+          </Nav.Link>
+        </LinkContainer>
+        <LinkContainer to= "/exactasJuega">
+          <Nav.Link>
+            Exactas juega
+          </Nav.Link>
+        </LinkContainer>
+        <LinkContainer to= "/nocheDeJuegos">
+          <Nav.Link>
+            Noche de juegos
+          </Nav.Link>
+        </LinkContainer>
+        <LinkContainer to= "/pabellonF">
+          <Nav.Link>
+            Pabellon F
+          </Nav.Link>
+        </LinkContainer>
+        <LinkContainer to= "/tournament">
+          <Nav.Link>
+            Torneos
+          </Nav.Link>
+        </LinkContainer>
       </Nav>
       <Nav>
-        <Nav.Link href="#deets">More deets</Nav.Link>
+        <LinkContainer to="/explore">
+        <Nav.Link >
+          Explora
+        </Nav.Link>
+          </LinkContainer>
         <LinkContainer to="/about">
         <Nav.Link >
           About

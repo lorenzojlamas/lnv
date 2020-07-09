@@ -4,6 +4,6 @@ import { Home } from './Home';
 
 test('Renders text', () => {
     const {getByText} = render(<Home />);
-    const linkElement = getByText(/Quedate en casa/i);
+    const linkElement = getByText(/Quedate en .*/i);
     expect(linkElement).toBeInTheDocument();
 });
