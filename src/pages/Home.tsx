@@ -9,7 +9,6 @@ import {
     faComments
 } from '@fortawesome/free-solid-svg-icons'
 import Container from 'react-bootstrap/Container';
-// import { LinkContainer } from 'react-router-bootstrap'
 import {faYoutube} from '@fortawesome/free-brands-svg-icons'
 import { RightTitle } from '../components/Titles/RightTitle';
 export class Home extends Component {
