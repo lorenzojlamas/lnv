@@ -42,13 +42,13 @@ export class NavBar extends Component {
             Torneos
           </Nav.Link>
         </LinkContainer>
-      </Nav>
-      <Nav>
         <LinkContainer to="/explore">
         <Nav.Link >
-          Explora
+          Xplora
         </Nav.Link>
           </LinkContainer>
+      </Nav>
+      <Nav>
         <LinkContainer to="/about">
         <Nav.Link >
           About
