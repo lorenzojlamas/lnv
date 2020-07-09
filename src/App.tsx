@@ -19,6 +19,33 @@ function App() {
       <Redirect
         from="/"
         to="/home" />
+      <Redirect
+        from="/about"
+        to="/about" />
+      <Redirect
+        from="/discord"
+        to="/discord" />
+      <Redirect
+        from="/exactasJuega"
+        to="/exactasJuega" />
+      <Redirect
+        from="/explore"
+        to="/explore" />
+      <Redirect
+        from="/about"
+        to="/about" />
+      <Redirect
+        from="/home"
+        to="/home" />
+      <Redirect
+        from="/nocheDeJuegos"
+        to="/nocheDeJuegos" />
+      <Redirect
+        from="/pabellonF"
+        to="/pabellonF" />
+      <Redirect
+        from="/tournament"
+        to="/tournament" />
       <Switch>
         <Route
           path="/about"
@@ -35,9 +62,6 @@ function App() {
         <Route
           path="/home"
           component={Home} />
-        <Route
-          path="/about"
-          component={About} />
         <Route
           path="/nocheDeJuegos"
           component={NocheDeJuegos} />
