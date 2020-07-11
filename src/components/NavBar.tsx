@@ -2,8 +2,9 @@
 import React, { Component } from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav'
-import { LinkContainer } from 'react-router-bootstrap'
-
+import Image from 'react-bootstrap/Image'
+import { LinkContainer } from 'react-router-bootstrap';
+import logoCompleto from '../assets/logoCompleto.png';
 export class NavBar extends Component {
 
   render() {
@@ -11,7 +12,7 @@ export class NavBar extends Component {
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
     <LinkContainer to="/home">
     <Navbar.Brand >
-      Café en la noriega
+      <Image src={logoCompleto} fluid height='100px' width='100px'/>
       </Navbar.Brand>
     </LinkContainer>
     <Navbar.Toggle aria-controls="responsive-navbar-nav" />

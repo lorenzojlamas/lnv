@@ -32,14 +32,14 @@ export class Home extends Component {
             <LeftTitle
             name= 'Noche de juegos'
             icon={nocheDeJuegosIcon}
-            text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+            text="El espacio de reunión donde nos juntamos a jugar y charlar entre amigues y compañeres de cursada "
             styles={styles}
             linkTo='/nocheDeJuegos'
             />
             <RightTitle
             name= 'Salas de Discord'
             icon={salasDeDiscordIcon}
-            text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+            text="Sumate en nuestras salas de discord! Tenemos salas para todos los juegos y los espacios!"
             styles={styles}
             linkTo='/discord'
             />
@@ -53,21 +53,21 @@ export class Home extends Component {
             <RightTitle
             name= 'Torneos'
             icon={tournamentsIcon}
-            text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+            text="Shooters, RPG, RTS los torneos de todos los juegos que se te ocurran los podés encontrar acá"
             styles={styles}
             linkTo='/tournament'
             />
             <LeftTitle
             name= 'Xplora'
             icon={exploraIcon}
-            text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+            text="Aca vas a poder encontrar entrevistas a investigadores y videos animados que esperamos les despierten la misma curiosidad que a nosotres"
             styles={styles}
             linkTo='/explore'
             />
             <RightTitle
             name= 'Exactas juega'
             icon={exactasJuegaIcon}
-            text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+            text="Sumate a jugar en Exactas"
             styles={styles}
             linkTo='/exactasJuega'
             />
