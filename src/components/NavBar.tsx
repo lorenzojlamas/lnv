@@ -12,7 +12,7 @@ export class NavBar extends Component {
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
     <LinkContainer to="/home">
     <Navbar.Brand >
-      <Image src={logoCompleto} fluid height='100px' width='100px'/>
+      <Image src={logoCompleto} fluid width='120px'/>
       </Navbar.Brand>
     </LinkContainer>
     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -43,7 +43,7 @@ export class NavBar extends Component {
             Torneos
           </Nav.Link>
         </LinkContainer>
-        <LinkContainer to="/explore">
+        <LinkContainer to="/xplora">
         <Nav.Link >
           Xplora
         </Nav.Link>

@@ -4,10 +4,9 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
+ // TODO: solucionar los issues para poder usar el strictMode
 ReactDOM.render(
-  <React.StrictMode>
-    <App/>
-  </React.StrictMode>,
+  <App/>,
   document.getElementById('root')
 );
 

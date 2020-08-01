@@ -9,7 +9,7 @@ import { NavBar } from './components/NavBar';
 import { Home } from './pages/Home';
 import { Discord } from './pages/Discord';
 import { ExactasJuega } from './pages/ExactasJuega';
-import { Explore } from './pages/Explore';
+import { Xplora } from './pages/Xplora';
 import { NocheDeJuegos } from './pages/NocheDeJuegos';
 import { PabellonF } from './pages/PabellonF';
 import { Tournament } from './pages/Tournament';
@@ -32,8 +32,8 @@ function App() {
           path="/exactasJuega"
           component={ExactasJuega} />
         <Route
-          path="/explore"
-          component={Explore} />
+          path="/xplora"
+          component={Xplora} />
         <Route
           path="/home"
           component={Home} />

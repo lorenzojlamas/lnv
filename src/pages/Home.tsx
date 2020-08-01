@@ -7,9 +7,9 @@ import {
     faTrophy,
     faGamepad,
     faComments
-} from '@fortawesome/free-solid-svg-icons'
+} from '@fortawesome/free-solid-svg-icons';
 import Container from 'react-bootstrap/Container';
-import {faYoutube} from '@fortawesome/free-brands-svg-icons'
+import {faYoutube} from '@fortawesome/free-brands-svg-icons';
 import { RightTitle } from '../components/Titles/RightTitle';
 export class Home extends Component {
 
@@ -62,7 +62,7 @@ export class Home extends Component {
             icon={exploraIcon}
             text="Aca vas a poder encontrar entrevistas a investigadores y videos animados que esperamos les despierten la misma curiosidad que a nosotres"
             styles={styles}
-            linkTo='/explore'
+            linkTo='/xplora'
             />
             <RightTitle
             name= 'Exactas juega'
