@@ -1,0 +1,767 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`index should render correctly 1`] = `
+<div
+  className="root-container"
+>
+  <header>
+    <nav
+      className="navbar navbar-expand-lg navbar-dark bg-dark"
+    >
+      <a
+        className="nav-link"
+        href="/"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+      >
+        <span
+          className="navbar-brand"
+        >
+          <img
+            className="img-fluid"
+            src="/logoCompleto.png"
+            width="120px"
+          />
+        </span>
+      </a>
+      <button
+        aria-controls="responsive-navbar-nav"
+        aria-label="Toggle navigation"
+        className="navbar-toggler collapsed"
+        onClick={[Function]}
+        type="button"
+      >
+        <span
+          className="navbar-toggler-icon"
+        />
+      </button>
+      <div
+        aria-expanded={null}
+        className="navbar-collapse collapse"
+        id="responsive-navbar-nav"
+      >
+        <div
+          className="mr-auto navbar-nav"
+          onKeyDown={[Function]}
+        >
+          <a
+            className="nav-link"
+            data-rb-event-key="/discord"
+            href="/discord"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+          >
+            Discord
+          </a>
+          <a
+            className="nav-link"
+            data-rb-event-key="/exactasJuega"
+            href="/exactasJuega"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+          >
+            Exactas juega
+          </a>
+          <a
+            className="nav-link"
+            data-rb-event-key="/nocheDeJuegos"
+            href="/nocheDeJuegos"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+          >
+            Noche de juegos
+          </a>
+          <a
+            className="nav-link"
+            data-rb-event-key="/pabellonF"
+            href="/pabellonF"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+          >
+            Pabellon F
+          </a>
+          <a
+            className="nav-link"
+            data-rb-event-key="/tournament"
+            href="/tournament"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+          >
+            Torneos
+          </a>
+          <a
+            className="nav-link"
+            data-rb-event-key="/xplora"
+            href="/xplora"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+          >
+            Xplora
+          </a>
+        </div>
+        <div
+          className="navbar-nav"
+          onKeyDown={[Function]}
+        >
+          <a
+            className="nav-link"
+            data-rb-event-key="/about"
+            href="/about"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+          >
+            About
+          </a>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <div
+    className="body-pages"
+  >
+    <div
+      className="container"
+      style={
+        Object {
+          "paddingBottom": "3vh",
+        }
+      }
+    >
+      <div
+        className="container-fluid"
+        style={
+          Object {
+            "paddingLeft": "2vw",
+            "paddingRight": "2vw",
+            "paddingTop": "3vh",
+          }
+        }
+      >
+        <button
+          className="btn btn-secondary btn-block"
+          disabled={false}
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+          type="button"
+        >
+          <div
+            className="justify-content-md-center row row-cols-lg-2 row-cols-md-2 row-cols-sm-2 row-cols-2"
+          >
+            <div
+              className="col"
+            >
+              <div
+                className="container"
+                style={
+                  Object {
+                    "left": "50%",
+                    "position": "absolute",
+                    "top": "50%",
+                    "transform": "translate(-50%, -50%)",
+                  }
+                }
+              >
+                <svg
+                  aria-hidden="true"
+                  className="svg-inline--fa fa-headphones fa-w-16 fa-4x "
+                  data-icon="headphones"
+                  data-prefix="fas"
+                  focusable="false"
+                  role="img"
+                  style={Object {}}
+                  viewBox="0 0 512 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M256 32C114.52 32 0 146.496 0 288v48a32 32 0 0 0 17.689 28.622l14.383 7.191C34.083 431.903 83.421 480 144 480h24c13.255 0 24-10.745 24-24V280c0-13.255-10.745-24-24-24h-24c-31.342 0-59.671 12.879-80 33.627V288c0-105.869 86.131-192 192-192s192 86.131 192 192v1.627C427.671 268.879 399.342 256 368 256h-24c-13.255 0-24 10.745-24 24v176c0 13.255 10.745 24 24 24h24c60.579 0 109.917-48.098 111.928-108.187l14.382-7.191A32 32 0 0 0 512 336v-48c0-141.479-114.496-256-256-256z"
+                    fill="currentColor"
+                    style={Object {}}
+                  />
+                </svg>
+              </div>
+            </div>
+            <div
+              className="col"
+            >
+              <div
+                className="container"
+              >
+                <div
+                  className="content-md-center row row-cols-lg-1 row-cols-md-1 row-cols-sm-1 row-cols-1"
+                >
+                  <div
+                    className="col"
+                  >
+                    <h2
+                      style={
+                        Object {
+                          "textAlign": "center",
+                        }
+                      }
+                    >
+                      Noche de juegos
+                    </h2>
+                  </div>
+                </div>
+                <div
+                  className="justify-content-md-center row"
+                >
+                  <div
+                    className="col"
+                  >
+                    El espacio de reunión donde nos juntamos a jugar y charlar entre amigues y compañeres de cursada 
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </button>
+      </div>
+      <div
+        className="container-fluid"
+        style={
+          Object {
+            "paddingLeft": "2vw",
+            "paddingRight": "2vw",
+            "paddingTop": "3vh",
+          }
+        }
+      >
+        <button
+          className="btn btn-secondary btn-block"
+          disabled={false}
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+          type="button"
+        >
+          <div
+            className="justify-content-md-center row row-cols-lg-2 row-cols-md-2 row-cols-sm-2 row-cols-2"
+          >
+            <div
+              className="col"
+            >
+              <div
+                className="container"
+              >
+                <div
+                  className="content-md-center row row-cols-lg-1 row-cols-md-1 row-cols-sm-1 row-cols-1"
+                >
+                  <div
+                    className="col"
+                  >
+                    <h2
+                      style={
+                        Object {
+                          "textAlign": "center",
+                        }
+                      }
+                    >
+                      Salas de Discord
+                    </h2>
+                  </div>
+                </div>
+                <div
+                  className="justify-content-md-center row"
+                >
+                  <div
+                    className="col"
+                  >
+                    Sumate en nuestras salas de discord! Tenemos salas para todos los juegos y los espacios!
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="col"
+            >
+              <div
+                className="container"
+                style={
+                  Object {
+                    "left": "50%",
+                    "position": "absolute",
+                    "top": "50%",
+                    "transform": "translate(-50%, -50%)",
+                  }
+                }
+              >
+                <svg
+                  aria-hidden="true"
+                  className="svg-inline--fa fa-comments fa-w-18 fa-4x "
+                  data-icon="comments"
+                  data-prefix="fas"
+                  focusable="false"
+                  role="img"
+                  style={Object {}}
+                  viewBox="0 0 576 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M416 192c0-88.4-93.1-160-208-160S0 103.6 0 192c0 34.3 14.1 65.9 38 92-13.4 30.2-35.5 54.2-35.8 54.5-2.2 2.3-2.8 5.7-1.5 8.7S4.8 352 8 352c36.6 0 66.9-12.3 88.7-25 32.2 15.7 70.3 25 111.3 25 114.9 0 208-71.6 208-160zm122 220c23.9-26 38-57.7 38-92 0-66.9-53.5-124.2-129.3-148.1.9 6.6 1.3 13.3 1.3 20.1 0 105.9-107.7 192-240 192-10.8 0-21.3-.8-31.7-1.9C207.8 439.6 281.8 480 368 480c41 0 79.1-9.2 111.3-25 21.8 12.7 52.1 25 88.7 25 3.2 0 6.1-1.9 7.3-4.8 1.3-2.9.7-6.3-1.5-8.7-.3-.3-22.4-24.2-35.8-54.5z"
+                    fill="currentColor"
+                    style={Object {}}
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </button>
+      </div>
+      <div
+        className="container-fluid"
+        style={
+          Object {
+            "paddingLeft": "2vw",
+            "paddingRight": "2vw",
+            "paddingTop": "3vh",
+          }
+        }
+      >
+        <button
+          className="btn btn-secondary btn-block"
+          disabled={false}
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+          type="button"
+        >
+          <div
+            className="justify-content-md-center row row-cols-lg-2 row-cols-md-2 row-cols-sm-2 row-cols-2"
+          >
+            <div
+              className="col"
+            >
+              <div
+                className="container"
+                style={
+                  Object {
+                    "left": "50%",
+                    "position": "absolute",
+                    "top": "50%",
+                    "transform": "translate(-50%, -50%)",
+                  }
+                }
+              >
+                <svg
+                  aria-hidden="true"
+                  className="svg-inline--fa fa-podcast fa-w-14 fa-4x "
+                  data-icon="podcast"
+                  data-prefix="fas"
+                  focusable="false"
+                  role="img"
+                  style={Object {}}
+                  viewBox="0 0 448 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M267.429 488.563C262.286 507.573 242.858 512 224 512c-18.857 0-38.286-4.427-43.428-23.437C172.927 460.134 160 388.898 160 355.75c0-35.156 31.142-43.75 64-43.75s64 8.594 64 43.75c0 32.949-12.871 104.179-20.571 132.813zM156.867 288.554c-18.693-18.308-29.958-44.173-28.784-72.599 2.054-49.724 42.395-89.956 92.124-91.881C274.862 121.958 320 165.807 320 220c0 26.827-11.064 51.116-28.866 68.552-2.675 2.62-2.401 6.986.628 9.187 9.312 6.765 16.46 15.343 21.234 25.363 1.741 3.654 6.497 4.66 9.449 1.891 28.826-27.043 46.553-65.783 45.511-108.565-1.855-76.206-63.595-138.208-139.793-140.369C146.869 73.753 80 139.215 80 220c0 41.361 17.532 78.7 45.55 104.989 2.953 2.771 7.711 1.77 9.453-1.887 4.774-10.021 11.923-18.598 21.235-25.363 3.029-2.2 3.304-6.566.629-9.185zM224 0C100.204 0 0 100.185 0 224c0 89.992 52.602 165.647 125.739 201.408 4.333 2.118 9.267-1.544 8.535-6.31-2.382-15.512-4.342-30.946-5.406-44.339-.146-1.836-1.149-3.486-2.678-4.512-47.4-31.806-78.564-86.016-78.187-147.347.592-96.237 79.29-174.648 175.529-174.899C320.793 47.747 400 126.797 400 224c0 61.932-32.158 116.49-80.65 147.867-.999 14.037-3.069 30.588-5.624 47.23-.732 4.767 4.203 8.429 8.535 6.31C395.227 389.727 448 314.187 448 224 448 100.205 347.815 0 224 0zm0 160c-35.346 0-64 28.654-64 64s28.654 64 64 64 64-28.654 64-64-28.654-64-64-64z"
+                    fill="currentColor"
+                    style={Object {}}
+                  />
+                </svg>
+              </div>
+            </div>
+            <div
+              className="col"
+            >
+              <div
+                className="container"
+              >
+                <div
+                  className="content-md-center row row-cols-lg-1 row-cols-md-1 row-cols-sm-1 row-cols-1"
+                >
+                  <div
+                    className="col"
+                  >
+                    <h2
+                      style={
+                        Object {
+                          "textAlign": "center",
+                        }
+                      }
+                    >
+                      Pabellon F
+                    </h2>
+                  </div>
+                </div>
+                <div
+                  className="justify-content-md-center row"
+                >
+                  <div
+                    className="col"
+                  >
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </button>
+      </div>
+      <div
+        className="container-fluid"
+        style={
+          Object {
+            "paddingLeft": "2vw",
+            "paddingRight": "2vw",
+            "paddingTop": "3vh",
+          }
+        }
+      >
+        <button
+          className="btn btn-secondary btn-block"
+          disabled={false}
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+          type="button"
+        >
+          <div
+            className="justify-content-md-center row row-cols-lg-2 row-cols-md-2 row-cols-sm-2 row-cols-2"
+          >
+            <div
+              className="col"
+            >
+              <div
+                className="container"
+              >
+                <div
+                  className="content-md-center row row-cols-lg-1 row-cols-md-1 row-cols-sm-1 row-cols-1"
+                >
+                  <div
+                    className="col"
+                  >
+                    <h2
+                      style={
+                        Object {
+                          "textAlign": "center",
+                        }
+                      }
+                    >
+                      Torneos
+                    </h2>
+                  </div>
+                </div>
+                <div
+                  className="justify-content-md-center row"
+                >
+                  <div
+                    className="col"
+                  >
+                    Shooters, RPG, RTS los torneos de todos los juegos que se te ocurran los podés encontrar acá
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="col"
+            >
+              <div
+                className="container"
+                style={
+                  Object {
+                    "left": "50%",
+                    "position": "absolute",
+                    "top": "50%",
+                    "transform": "translate(-50%, -50%)",
+                  }
+                }
+              >
+                <svg
+                  aria-hidden="true"
+                  className="svg-inline--fa fa-trophy fa-w-18 fa-4x "
+                  data-icon="trophy"
+                  data-prefix="fas"
+                  focusable="false"
+                  role="img"
+                  style={Object {}}
+                  viewBox="0 0 576 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M552 64H448V24c0-13.3-10.7-24-24-24H152c-13.3 0-24 10.7-24 24v40H24C10.7 64 0 74.7 0 88v56c0 35.7 22.5 72.4 61.9 100.7 31.5 22.7 69.8 37.1 110 41.7C203.3 338.5 240 360 240 360v72h-48c-35.3 0-64 20.7-64 56v12c0 6.6 5.4 12 12 12h296c6.6 0 12-5.4 12-12v-12c0-35.3-28.7-56-64-56h-48v-72s36.7-21.5 68.1-73.6c40.3-4.6 78.6-19 110-41.7 39.3-28.3 61.9-65 61.9-100.7V88c0-13.3-10.7-24-24-24zM99.3 192.8C74.9 175.2 64 155.6 64 144v-16h64.2c1 32.6 5.8 61.2 12.8 86.2-15.1-5.2-29.2-12.4-41.7-21.4zM512 144c0 16.1-17.7 36.1-35.3 48.8-12.5 9-26.7 16.2-41.8 21.4 7-25 11.8-53.6 12.8-86.2H512v16z"
+                    fill="currentColor"
+                    style={Object {}}
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </button>
+      </div>
+      <div
+        className="container-fluid"
+        style={
+          Object {
+            "paddingLeft": "2vw",
+            "paddingRight": "2vw",
+            "paddingTop": "3vh",
+          }
+        }
+      >
+        <button
+          className="btn btn-secondary btn-block"
+          disabled={false}
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+          type="button"
+        >
+          <div
+            className="justify-content-md-center row row-cols-lg-2 row-cols-md-2 row-cols-sm-2 row-cols-2"
+          >
+            <div
+              className="col"
+            >
+              <div
+                className="container"
+                style={
+                  Object {
+                    "left": "50%",
+                    "position": "absolute",
+                    "top": "50%",
+                    "transform": "translate(-50%, -50%)",
+                  }
+                }
+              >
+                <svg
+                  aria-hidden="true"
+                  className="svg-inline--fa fa-youtube fa-w-18 fa-4x "
+                  data-icon="youtube"
+                  data-prefix="fab"
+                  focusable="false"
+                  role="img"
+                  style={Object {}}
+                  viewBox="0 0 576 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"
+                    fill="currentColor"
+                    style={Object {}}
+                  />
+                </svg>
+              </div>
+            </div>
+            <div
+              className="col"
+            >
+              <div
+                className="container"
+              >
+                <div
+                  className="content-md-center row row-cols-lg-1 row-cols-md-1 row-cols-sm-1 row-cols-1"
+                >
+                  <div
+                    className="col"
+                  >
+                    <h2
+                      style={
+                        Object {
+                          "textAlign": "center",
+                        }
+                      }
+                    >
+                      Xplora
+                    </h2>
+                  </div>
+                </div>
+                <div
+                  className="justify-content-md-center row"
+                >
+                  <div
+                    className="col"
+                  >
+                    Aca vas a poder encontrar entrevistas a investigadores y videos animados que esperamos les despierten la misma curiosidad que a nosotres
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </button>
+      </div>
+      <div
+        className="container-fluid"
+        style={
+          Object {
+            "paddingLeft": "2vw",
+            "paddingRight": "2vw",
+            "paddingTop": "3vh",
+          }
+        }
+      >
+        <button
+          className="btn btn-secondary btn-block"
+          disabled={false}
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+          type="button"
+        >
+          <div
+            className="justify-content-md-center row row-cols-lg-2 row-cols-md-2 row-cols-sm-2 row-cols-2"
+          >
+            <div
+              className="col"
+            >
+              <div
+                className="container"
+              >
+                <div
+                  className="content-md-center row row-cols-lg-1 row-cols-md-1 row-cols-sm-1 row-cols-1"
+                >
+                  <div
+                    className="col"
+                  >
+                    <h2
+                      style={
+                        Object {
+                          "textAlign": "center",
+                        }
+                      }
+                    >
+                      Exactas juega
+                    </h2>
+                  </div>
+                </div>
+                <div
+                  className="justify-content-md-center row"
+                >
+                  <div
+                    className="col"
+                  >
+                    Sumate a jugar en Exactas
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="col"
+            >
+              <div
+                className="container"
+                style={
+                  Object {
+                    "left": "50%",
+                    "position": "absolute",
+                    "top": "50%",
+                    "transform": "translate(-50%, -50%)",
+                  }
+                }
+              >
+                <svg
+                  aria-hidden="true"
+                  className="svg-inline--fa fa-gamepad fa-w-20 fa-4x "
+                  data-icon="gamepad"
+                  data-prefix="fas"
+                  focusable="false"
+                  role="img"
+                  style={Object {}}
+                  viewBox="0 0 640 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M480.07 96H160a160 160 0 1 0 114.24 272h91.52A160 160 0 1 0 480.07 96zM248 268a12 12 0 0 1-12 12h-52v52a12 12 0 0 1-12 12h-24a12 12 0 0 1-12-12v-52H84a12 12 0 0 1-12-12v-24a12 12 0 0 1 12-12h52v-52a12 12 0 0 1 12-12h24a12 12 0 0 1 12 12v52h52a12 12 0 0 1 12 12zm216 76a40 40 0 1 1 40-40 40 40 0 0 1-40 40zm64-96a40 40 0 1 1 40-40 40 40 0 0 1-40 40z"
+                    fill="currentColor"
+                    style={Object {}}
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </button>
+      </div>
+    </div>
+  </div>
+  <footer
+    className="footer mt-auto py-3 bg-dark text-white align-bottom"
+  >
+    <div
+      className="footer footer-content mt-auto py-2 bg-dark text-white container"
+    >
+      <div
+        className="footer-copyright text-center"
+      >
+        <div
+          className="justify-content-md-center row row-cols-lg-3 row-cols-md-3 row-cols-sm-3 row-cols-3"
+        >
+          <div
+            className="col"
+            style={
+              Object {
+                "textAlign": "left",
+              }
+            }
+          >
+            © 2020 Copyright: CECEN
+          </div>
+          <div
+            className="col"
+            style={
+              Object {
+                "textAlign": "right",
+              }
+            }
+          >
+            Redes:
+            <a
+              className="btn btn-dark btn-sm"
+              href="https://www.instagram.com/identidadexactas/"
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onMouseOut={[Function]}
+              onMouseOver={[Function]}
+              target="_blank"
+            >
+              <svg
+                aria-hidden="true"
+                className="svg-inline--fa fa-instagram fa-w-14 fa-2x "
+                data-icon="instagram"
+                data-prefix="fab"
+                focusable="false"
+                role="img"
+                style={Object {}}
+                viewBox="0 0 448 512"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
+                  fill="currentColor"
+                  style={Object {}}
+                />
+              </svg>
+            </a>
+            <a
+              className="btn btn-dark btn-sm"
+              href="https://www.facebook.com/IdentidadExactasUba"
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onMouseOut={[Function]}
+              onMouseOver={[Function]}
+              target="_blank"
+            >
+              <svg
+                aria-hidden="true"
+                className="svg-inline--fa fa-facebook fa-w-16 fa-2x "
+                data-icon="facebook"
+                data-prefix="fab"
+                focusable="false"
+                role="img"
+                style={Object {}}
+                viewBox="0 0 512 512"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"
+                  fill="currentColor"
+                  style={Object {}}
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</div>
+`;
