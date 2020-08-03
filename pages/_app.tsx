@@ -1,5 +1,8 @@
 import '../style/index.scss';
-
-export default function MyApp({ Component, pageProps }) {
+interface LnvAppProps {
+  Component: any;
+  pageProps: any;
+}
+export default function LnvApp({ Component, pageProps }: LnvAppProps) {
   return <Component {...pageProps} />;
 }
