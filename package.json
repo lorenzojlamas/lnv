@@ -5,9 +5,7 @@
     "scripts": {
         "prebuild": "npm test",
         "test": "jest && npm run lint",
-        "coverage": "jest --coverage --coverageReporters=html",
-        "send-coverage": "jest --coverage --coverageReporters=text-lcov | coveralls",
-        "coveralls": "cat ./coverage/lcov.info | node node_modules/.bin/coveralls",
+        "coveralls": "jest --coverage && cat ./coverage/lcov.info | coveralls",
         "lint": "npm run prettier-check",
         "dev": "next",
         "build": "next build",
