@@ -1,0 +1,45 @@
+/* ensure all pages have Bootstrap CSS */
+
+$theme-colors: ( "info": tomato, "danger": teal, "dark": #2B4B65, "secondary": #40BA8D, "background": #2B4B65);
+.root-container {
+    background-color: rgba(43, 75, 101, .85);
+    height: 100%;
+    width: 100%;
+    // position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    // display: flex;
+    // flex-direction: column;
+}
+
+.body-pages {
+    height: 100%;
+}
+
+.md-container {
+    max-width: 800px;
+    padding-top: 2rem;
+}
+
+.sml-card {
+    width: 22rem;
+    margin: 1rem 0;
+}
+
+.cntr-footer {
+    height: 80px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid #ccc;
+}
+
+.sml-logo {
+    height: 1em;
+    margin-left: 10px;
+}
+
+@import "bootstrap";
