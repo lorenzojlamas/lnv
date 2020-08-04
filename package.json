@@ -1,7 +1,7 @@
 {
     "name": "lnv",
     "version": "0.1.0",
-    "homepage": "http://lorenzojlamas.github.io/lnv",
+    "homepage": "https://cafenoriega.vercel.app",
     "scripts": {
         "prebuild": "npm test",
         "test": "jest && npm run lint",
