@@ -4,6 +4,7 @@ import React, { Component } from 'react';
 import InstagramEmbed from 'react-instagram-embed';
 import Container from 'react-bootstrap/Container';
 import { BasePageWithCard } from '../components/BasePageWithCards';
+import Feed from '../components/Instagram/Feed';
 
 var Center = require('react-center');
 
@@ -46,6 +47,11 @@ export default class ExactasJuega extends Component {
             onFailure={() => {}}
           />
         </Center>
+        <Feed
+          username="identidadexactas"
+          className="Feed"
+          loadingClassName="Loading"
+        />,
       </Container>
     );
     return (
