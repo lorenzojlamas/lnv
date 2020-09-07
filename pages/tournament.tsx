@@ -21,13 +21,15 @@ export default class Tournament extends Component {
           esta forma, te va a encantar!
         </p>
         <h5 className="text-center">
-        La primera edición del torneo será el viernes 11/09. 
+          La primera edición del torneo será el viernes 11/09.
         </h5>
-        <h5  className="text-center"> Agendalo ¡!</h5>
+        <h5 className="text-center"> Agendalo ¡!</h5>
         <Button
           variant="primary"
           block
-          href={'https://docs.google.com/forms/d/1ks5iraTW6uyTdH-JABEQDofmoNX4CqOgiw3fDKlmcZc/edit'}
+          href={
+            'https://docs.google.com/forms/d/1ks5iraTW6uyTdH-JABEQDofmoNX4CqOgiw3fDKlmcZc/edit'
+          }
           target={'_blank'}>
           Para inscribirte completá el formulario
         </Button>
