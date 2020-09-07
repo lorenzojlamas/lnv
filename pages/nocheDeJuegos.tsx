@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHeadphones } from '@fortawesome/free-solid-svg-icons';
 import { BasePageWithCard } from '../components/BasePageWithCards';
-import Container from 'react-bootstrap/esm/Container';
+import Container from 'react-bootstrap/Container';
 import { Channels, IconProps, RedesIcons } from '../components/RedesIcons';
 
 export default class NocheDeJuegos extends Component {
