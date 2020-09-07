@@ -5,7 +5,6 @@ import Container from 'react-bootstrap/Container';
 import { BasePageWithCard } from '../components/BasePageWithCards';
 import Button from 'react-bootstrap/Button';
 
-
 export default class ExactasJuega extends Component {
   render() {
     const exactasJuegaIcon = <FontAwesomeIcon icon={faGamepad} />;
@@ -30,7 +29,6 @@ export default class ExactasJuega extends Component {
           target={'_blank'}>
           Seguinos y vení a jugar!
         </Button>
-
       </Container>
     );
 
