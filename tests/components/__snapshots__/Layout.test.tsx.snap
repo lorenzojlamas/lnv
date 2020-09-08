@@ -152,7 +152,7 @@ exports[`Layout should render correctly 1`] = `
             Redes:
             <a
               className="btn btn-dark btn-sm"
-              href="https://www.instagram.com/identidadexactas/"
+              href="https://www.instagram.com/cecen.exactas/"
               onBlur={[Function]}
               onClick={[Function]}
               onFocus={[Function]}
@@ -181,7 +181,7 @@ exports[`Layout should render correctly 1`] = `
             </a>
             <a
               className="btn btn-dark btn-sm"
-              href="https://www.facebook.com/IdentidadExactasUba"
+              href="https://www.facebook.com/CECEN.UBA"
               onBlur={[Function]}
               onClick={[Function]}
               onFocus={[Function]}
