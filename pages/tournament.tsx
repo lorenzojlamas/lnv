@@ -27,9 +27,7 @@ export default class Tournament extends Component {
         <Button
           variant="primary"
           block
-          href={
-            'https://docs.google.com/forms/d/1ks5iraTW6uyTdH-JABEQDofmoNX4CqOgiw3fDKlmcZc/edit'
-          }
+          href={'https://forms.gle/T2VsienuTeyEuS2Z9'}
           target={'_blank'}>
           Para inscribirte completá el formulario
         </Button>
