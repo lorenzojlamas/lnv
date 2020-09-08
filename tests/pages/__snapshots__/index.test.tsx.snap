@@ -389,7 +389,7 @@ exports[`index should render correctly 1`] = `
                   <div
                     className="col"
                   >
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                    : Un podcast hecho por estudiantess
                   </div>
                 </div>
               </div>

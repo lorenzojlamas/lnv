@@ -9,7 +9,10 @@ import {
   faTwitter,
   faInstagram,
   faFacebook,
+  faDiscord,
+  faSpotify,
 } from '@fortawesome/free-brands-svg-icons';
+import { faPodcast, faQuestion } from '@fortawesome/free-solid-svg-icons';
 
 var Center = require('react-center');
 
@@ -28,6 +31,11 @@ export enum Channels {
   TWITTER = 'twitter',
   FACEBOOK = 'facebook',
   INSTAGRAM = 'instagram',
+  DISCORD = 'discord',
+  SPOTIFY = 'spotify',
+  ANCHORFM = 'anchorFm',
+  GOOGLEPODCASTS = 'googlePodcast',
+  SUGERENCIAS = 'sugerencias',
 }
 
 export class RedesIcons extends Component<IRedesIcons> {
@@ -36,12 +44,22 @@ export class RedesIcons extends Component<IRedesIcons> {
     const twitterIcon = <FontAwesomeIcon icon={faTwitter} size="2x" />;
     const instragramIcon = <FontAwesomeIcon icon={faInstagram} size="2x" />;
     const facebookIcon = <FontAwesomeIcon icon={faFacebook} size="2x" />;
+    const discordIcon = <FontAwesomeIcon icon={faDiscord} size="2x" />;
+    const spotifyIcon = <FontAwesomeIcon icon={faSpotify} size="2x" />;
+    const anchorFmIcon = <FontAwesomeIcon icon={faPodcast} size="2x" />;
+    const sugerenciasIcon = <FontAwesomeIcon icon={faQuestion} size="2x" />;
+
     // TODO: Sacar este any horrible
     const channels: any = {
       youtube: youtubeIcon,
       twitter: twitterIcon,
       facebook: facebookIcon,
       instagram: instragramIcon,
+      discord: discordIcon,
+      spotify: spotifyIcon,
+      anchorFm: anchorFmIcon,
+      googlePodcast: anchorFmIcon,
+      sugerencias: sugerenciasIcon,
     };
 
     const { icons } = this.props;
