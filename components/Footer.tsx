@@ -32,7 +32,7 @@ export class Footer extends Component {
                 <Button
                   size="sm"
                   variant="dark"
-                  href={'https://www.instagram.com/identidadexactas/'}
+                  href={'https://www.instagram.com/cecen.exactas/'}
                   target={'_blank'}>
                   {instragramIcon}
                 </Button>
@@ -43,7 +43,7 @@ export class Footer extends Component {
                 <Button
                   size="sm"
                   variant="dark"
-                  href={'https://www.facebook.com/IdentidadExactasUba'}
+                  href={'https://www.facebook.com/CECEN.UBA'}
                   target={'_blank'}>
                   {facebookIcon}
                 </Button>
