@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { faPodcast } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { BasePageWithCard } from '../components/BasePageWithCards';
-import Container from 'react-bootstrap/esm/Container';
+import Container from 'react-bootstrap/Container';
 import { Channels, IconProps, RedesIcons } from '../components/RedesIcons';
 export default class PabellonF extends Component {
   render() {
