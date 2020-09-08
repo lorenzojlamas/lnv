@@ -389,7 +389,7 @@ exports[`index should render correctly 1`] = `
                   <div
                     className="col"
                   >
-                    : Un podcast hecho por estudiantess
+                    Un podcast hecho por estudiantess
                   </div>
                 </div>
               </div>
