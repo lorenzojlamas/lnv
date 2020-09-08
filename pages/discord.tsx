@@ -40,7 +40,6 @@ export default class Discord extends Component {
             <Button
               variant="secondary"
               block
-              block
               href={'https://discord.gg/NgtGE5'}
               target={'_blank'}>
               <Row>
