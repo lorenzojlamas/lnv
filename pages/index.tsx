@@ -47,7 +47,7 @@ const IndexPage = () => (
       <LeftTitle
         name="Pabellon F"
         icon={pabellonFIcon}
-        text=": Un podcast hecho por estudiantess"
+        text="Un podcast hecho por estudiantess"
         styles={styles}
         linkTo="/pabellonF"
       />
