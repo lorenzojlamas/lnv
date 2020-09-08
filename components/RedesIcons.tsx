@@ -10,12 +10,9 @@ import {
   faInstagram,
   faFacebook,
   faDiscord,
-  faSpotify
+  faSpotify,
 } from '@fortawesome/free-brands-svg-icons';
-import {
-  faPodcast,
-  faQuestion,
-} from '@fortawesome/free-solid-svg-icons';
+import { faPodcast, faQuestion } from '@fortawesome/free-solid-svg-icons';
 
 var Center = require('react-center');
 
@@ -38,7 +35,7 @@ export enum Channels {
   SPOTIFY = 'spotify',
   ANCHORFM = 'anchorFm',
   GOOGLEPODCASTS = 'googlePodcast',
-  SUGERENCIAS = 'sugerencias'
+  SUGERENCIAS = 'sugerencias',
 }
 
 export class RedesIcons extends Component<IRedesIcons> {

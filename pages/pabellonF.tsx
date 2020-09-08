@@ -22,7 +22,8 @@ export default class PabellonF extends Component {
       {
         tooltipText: 'Spotify',
         channel: Channels.SPOTIFY,
-        link: 'https://open.spotify.com/show/4INhBcpFPMoXWeCPq6eDqg?si=ReXfGz0ASYqGIz6YlpHz7g',
+        link:
+          'https://open.spotify.com/show/4INhBcpFPMoXWeCPq6eDqg?si=ReXfGz0ASYqGIz6YlpHz7g',
       },
       {
         tooltipText: 'Anchor',
@@ -32,7 +33,8 @@ export default class PabellonF extends Component {
       {
         tooltipText: 'Goolge Podcasts',
         channel: Channels.GOOGLEPODCASTS,
-        link: 'https://www.google.com/podcasts?feed=aHR0cHM6Ly9hbmNob3IuZm0vcy8yNDM5M2U2NC9wb2RjYXN0L3Jzcw==',
+        link:
+          'https://www.google.com/podcasts?feed=aHR0cHM6Ly9hbmNob3IuZm0vcy8yNDM5M2U2NC9wb2RjYXN0L3Jzcw==',
       },
       {
         tooltipText: 'Sugerencias',
@@ -43,7 +45,9 @@ export default class PabellonF extends Component {
     const body: JSX.Element = (
       <Container>
         <p>
-        Somos un podcast hecho por estudiantes de la facultad. Exploramos distintos temas de investigación que circulan en nuestra facultad, entrevistando profesores y estudiantes de nuestra casa de estudios.
+          Somos un podcast hecho por estudiantes de la facultad. Exploramos
+          distintos temas de investigación que circulan en nuestra facultad,
+          entrevistando profesores y estudiantes de nuestra casa de estudios.
         </p>
 
         <RedesIcons icons={redesIcons} />
