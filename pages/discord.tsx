@@ -71,7 +71,7 @@ export default class Discord extends Component {
             <Button
               variant="secondary"
               block
-              href={'https://discord.gg/nG5C3P'}
+              href={'https://discord.gg/TJfv4AF'}
               target={'_blank'}>
               <Row>
                 <Col lg={2} md={2} sm={2} xs={2}>

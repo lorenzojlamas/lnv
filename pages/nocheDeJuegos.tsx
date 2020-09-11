@@ -23,7 +23,7 @@ export default class NocheDeJuegos extends Component {
       {
         tooltipText: 'Discord',
         channel: Channels.DISCORD,
-        link: 'https://discord.gg/nG5C3P',
+        link: 'https://discord.gg/TJfv4AF',
       },
     ];
     const body: JSX.Element = (
