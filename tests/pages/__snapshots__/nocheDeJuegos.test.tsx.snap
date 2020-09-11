@@ -245,7 +245,7 @@ exports[`nocheDeJuegos should render correctly 1`] = `
             </a>
             <a
               className="btn btn-secondary btn-lg"
-              href="https://discord.gg/nG5C3P"
+              href="https://discord.gg/TJfv4AF"
               onBlur={[Function]}
               onClick={[Function]}
               onFocus={[Function]}
