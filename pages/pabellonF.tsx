@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
 import { faPodcast } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { BasePageWithCard } from '../components/BasePageWithCards';
 import Container from 'react-bootstrap/Container';
 import { Channels, IconProps, RedesIcons } from '../components/RedesIcons';
+import { BasePageWithCards } from '../components/BasePageWithCards';
 export default class PabellonF extends Component {
   render() {
+    const title1 = 'Pabellon F';
     const title = 'Pabellon F';
-    const pabellonFIcon = <FontAwesomeIcon icon={faPodcast} />;
+    const pabellonFIcon1 = <FontAwesomeIcon icon={faPodcast} />;
     const redesIcons: IconProps[] = [
       {
         tooltipText: 'Twitter',
@@ -42,7 +43,7 @@ export default class PabellonF extends Component {
         link: 'https://forms.gle/GGsV4joZ3QgsXBse8',
       },
     ];
-    const body: JSX.Element = (
+    const body1: JSX.Element = (
       <Container>
         <p>
           Somos un podcast hecho por estudiantes de la facultad. Exploramos
@@ -53,6 +54,13 @@ export default class PabellonF extends Component {
         <RedesIcons icons={redesIcons} />
       </Container>
     );
-    return <BasePageWithCard title={title} icon={pabellonFIcon} body={body} />;
+    const cards = [
+      {
+        title: title1,
+        icon: pabellonFIcon1,
+        body: body1,
+      },
+    ];
+    return <BasePageWithCards title={title} cards={cards} />;
   }
 }

@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGamepad } from '@fortawesome/free-solid-svg-icons';
 import React, { Component } from 'react';
 import Container from 'react-bootstrap/Container';
-import { BasePageWithCard } from '../components/BasePageWithCards';
+import { BasePageWithCard } from '../components/BasePageWithCard';
 import Button from 'react-bootstrap/Button';
 
 export default class ExactasJuega extends Component {

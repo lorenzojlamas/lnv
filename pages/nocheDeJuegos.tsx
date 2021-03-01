@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHeadphones } from '@fortawesome/free-solid-svg-icons';
-import { BasePageWithCard } from '../components/BasePageWithCards';
+import { BasePageWithCard } from '../components/BasePageWithCard';
 import Container from 'react-bootstrap/Container';
 import { Channels, IconProps, RedesIcons } from '../components/RedesIcons';
 
