@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Container from 'react-bootstrap/Container';
-import { BasePageWithCard } from '../components/BasePageWithCards';
+import { BasePageWithCard } from '../components/BasePageWithCard';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faYoutube } from '@fortawesome/free-brands-svg-icons';
 import { IconProps, RedesIcons, Channels } from '../components/RedesIcons';

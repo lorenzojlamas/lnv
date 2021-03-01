@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BasePageWithCard } from '../components/BasePageWithCards';
+import { BasePageWithCard } from '../components/BasePageWithCard';
 import { faTrophy } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Container from 'react-bootstrap/Container';

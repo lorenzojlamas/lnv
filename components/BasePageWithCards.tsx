@@ -2,24 +2,29 @@ import React, { Component } from 'react';
 import Card from 'react-bootstrap/Card';
 import { TitleForPagesWithIcon } from './Titles/TitleWithOuthText';
 import Layout from './Layout';
+import { IBasePageWithCardPropos } from './BasePageWithCard';
 
-export interface IBasePageWithCardPropos {
+export interface IBasePageWithCardsProps {
+  cards: IBasePageWithCardPropos[];
   title: string;
-  icon: JSX.Element;
-  body: JSX.Element;
 }
 
-export class BasePageWithCard extends Component<IBasePageWithCardPropos> {
+export class BasePageWithCards extends Component<IBasePageWithCardsProps> {
   render() {
-    const { title, icon, body } = this.props;
+    const { cards, title } = this.props;
+
     return (
       <Layout title={`Café Noriega - ${title}`}>
-        <Card bg="secondary" text={'white'}>
-          <Card.Header>
-            <TitleForPagesWithIcon title={title} icon={icon} />
-          </Card.Header>
-          <Card.Body>{body}</Card.Body>
-        </Card>
+        {cards.map((card: IBasePageWithCardPropos) => {
+          return (
+            <Card bg="secondary" text={'white'}>
+              <Card.Header>
+                <TitleForPagesWithIcon title={card.title} icon={card.icon} />
+              </Card.Header>
+              <Card.Body>{card.body}</Card.Body>
+            </Card>
+          );
+        })}
       </Layout>
     );
   }

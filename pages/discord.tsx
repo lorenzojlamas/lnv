@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Container from 'react-bootstrap/Container';
 import { faComments } from '@fortawesome/free-solid-svg-icons';
-import { BasePageWithCard } from '../components/BasePageWithCards';
+import { BasePageWithCard } from '../components/BasePageWithCard';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDiscord } from '@fortawesome/free-brands-svg-icons';
 
