@@ -18,9 +18,9 @@ export class NavBar extends Component {
             <Nav.Link href="/discord">Discord</Nav.Link>
             <Nav.Link href="/exactasJuega">Exactas juega</Nav.Link>
             <Nav.Link href="/nocheDeJuegos">Noche de juegos</Nav.Link>
-            <Nav.Link href="/pabellonF">Podcasts</Nav.Link>
-            <Nav.Link href="/tournament">Torneos</Nav.Link>
-            <Nav.Link href="/xplora">Divulgación</Nav.Link>
+            <Nav.Link href="/podcasts">Podcasts</Nav.Link>
+            {/* <Nav.Link href="/tournament">Torneos</Nav.Link> */}
+            <Nav.Link href="/divulgacion">Divulgación</Nav.Link>
           </Nav>
           <Nav>
             <Nav.Link href="/about">About</Nav.Link>
