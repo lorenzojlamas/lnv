@@ -78,7 +78,7 @@ exports[`index should render correctly 1`] = `
             onClick={[Function]}
             onKeyDown={[Function]}
           >
-            Pabellon F
+            Podcasts
           </a>
           <a
             className="nav-link"
@@ -96,7 +96,7 @@ exports[`index should render correctly 1`] = `
             onClick={[Function]}
             onKeyDown={[Function]}
           >
-            Xplora
+            Divulgación
           </a>
         </div>
         <div
