@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
-import Container from 'react-bootstrap/Container';
-import { BasePageWithCard } from '../components/BasePageWithCard';
+import { faPodcast } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faYoutube } from '@fortawesome/free-brands-svg-icons';
-import { IconProps, RedesIcons, Channels } from '../components/RedesIcons';
-
-export default class Xplora extends Component {
+import Container from 'react-bootstrap/Container';
+import { Channels, IconProps, RedesIcons } from '../components/RedesIcons';
+import { BasePageWithCards } from '../components/BasePageWithCards';
+export default class PabellonF extends Component {
   render() {
-    const exactasJuegaIcon = <FontAwesomeIcon icon={faYoutube} />;
-    const title = 'Xplora';
+    const title1 = 'Xplora';
+    const title = 'Sebas Kamin';
+    const pabellonFIcon1 = <FontAwesomeIcon icon={faPodcast} />;
     const redesIcons: IconProps[] = [
       {
         tooltipText: 'Canal de YouTube',
@@ -31,7 +31,14 @@ export default class Xplora extends Component {
         link: 'https://www.facebook.com/xplora.ciencia/',
       },
     ];
-    const body: JSX.Element = (
+    const redesIcons1: IconProps[] = [
+      {
+        tooltipText: 'Facebook',
+        channel: Channels.FACEBOOK,
+        link: 'https://beacons.page/sebakamin',
+      },
+    ];
+    const body1: JSX.Element = (
       <Container>
         <p>
           Somos un canal de YT de difusión cientifica que creemos que la ciencia
@@ -42,11 +49,40 @@ export default class Xplora extends Component {
           y nosotros, mucho más para aprender.
         </p>
         <p>¡Seguinos en nuestras redes para contenido semanal!</p>
+
         <RedesIcons icons={redesIcons} />
       </Container>
     );
-    return (
-      <BasePageWithCard title={title} icon={exactasJuegaIcon} body={body} />
+
+    const body: JSX.Element = (
+      <Container>
+        <p>
+          Soy un estudiante de la facu, que desde siempre tuvo una pasión
+          incondicional por los animales y espero poder transmitírtela a vos
+          también. Tanto en mi cuenta de IG como de YouTube subo información
+          todos los días sobre distintas especies, muchas de las cuales seguro
+          nunca te enteraste ni de que existían. Soy fiel creyente de que para
+          querer cuidar y conservar a la naturaleza primero hay que conocerla,
+          así que este es el granito de arena que puedo aportar para eso.
+        </p>
+
+        <RedesIcons icons={redesIcons1} />
+      </Container>
     );
+
+    const cards = [
+      {
+        title: title1,
+        icon: pabellonFIcon1,
+        body: body1,
+      },
+      {
+        title: title,
+        icon: pabellonFIcon1,
+        body: body,
+      },
+    ];
+
+    return <BasePageWithCards title={title} cards={cards} />;
   }
 }
