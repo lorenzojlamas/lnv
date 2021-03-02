@@ -73,30 +73,21 @@ exports[`index should render correctly 1`] = `
           </a>
           <a
             className="nav-link"
-            data-rb-event-key="/pabellonF"
-            href="/pabellonF"
+            data-rb-event-key="/podcasts"
+            href="/podcasts"
             onClick={[Function]}
             onKeyDown={[Function]}
           >
-            Pabellon F
+            Podcasts
           </a>
           <a
             className="nav-link"
-            data-rb-event-key="/tournament"
-            href="/tournament"
+            data-rb-event-key="/divulgacion"
+            href="/divulgacion"
             onClick={[Function]}
             onKeyDown={[Function]}
           >
-            Torneos
-          </a>
-          <a
-            className="nav-link"
-            data-rb-event-key="/xplora"
-            href="/xplora"
-            onClick={[Function]}
-            onKeyDown={[Function]}
-          >
-            Xplora
+            Divulgación
           </a>
         </div>
         <div
@@ -379,7 +370,7 @@ exports[`index should render correctly 1`] = `
                         }
                       }
                     >
-                      Pabellon F
+                      Podcasts
                     </h2>
                   </div>
                 </div>
@@ -389,7 +380,7 @@ exports[`index should render correctly 1`] = `
                   <div
                     className="col"
                   >
-                    Un podcast hecho por estudiantess
+                    Hecho por estudiantes para debatir sobre cosas interesantes o bien hablar de lo hermosa que es nuestra facultad.
                   </div>
                 </div>
               </div>
@@ -523,8 +514,8 @@ exports[`index should render correctly 1`] = `
               >
                 <svg
                   aria-hidden="true"
-                  className="svg-inline--fa fa-youtube fa-w-18 fa-4x "
-                  data-icon="youtube"
+                  className="svg-inline--fa fa-readme fa-w-18 fa-4x "
+                  data-icon="readme"
                   data-prefix="fab"
                   focusable="false"
                   role="img"
@@ -533,7 +524,7 @@ exports[`index should render correctly 1`] = `
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
-                    d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"
+                    d="M528.3 46.5H388.5c-48.1 0-89.9 33.3-100.4 80.3-10.6-47-52.3-80.3-100.4-80.3H48c-26.5 0-48 21.5-48 48v245.8c0 26.5 21.5 48 48 48h89.7c102.2 0 132.7 24.4 147.3 75 .7 2.8 5.2 2.8 6 0 14.7-50.6 45.2-75 147.3-75H528c26.5 0 48-21.5 48-48V94.6c0-26.4-21.3-47.9-47.7-48.1zM242 311.9c0 1.9-1.5 3.5-3.5 3.5H78.2c-1.9 0-3.5-1.5-3.5-3.5V289c0-1.9 1.5-3.5 3.5-3.5h160.4c1.9 0 3.5 1.5 3.5 3.5v22.9zm0-60.9c0 1.9-1.5 3.5-3.5 3.5H78.2c-1.9 0-3.5-1.5-3.5-3.5v-22.9c0-1.9 1.5-3.5 3.5-3.5h160.4c1.9 0 3.5 1.5 3.5 3.5V251zm0-60.9c0 1.9-1.5 3.5-3.5 3.5H78.2c-1.9 0-3.5-1.5-3.5-3.5v-22.9c0-1.9 1.5-3.5 3.5-3.5h160.4c1.9 0 3.5 1.5 3.5 3.5v22.9zm259.3 121.7c0 1.9-1.5 3.5-3.5 3.5H337.5c-1.9 0-3.5-1.5-3.5-3.5v-22.9c0-1.9 1.5-3.5 3.5-3.5h160.4c1.9 0 3.5 1.5 3.5 3.5v22.9zm0-60.9c0 1.9-1.5 3.5-3.5 3.5H337.5c-1.9 0-3.5-1.5-3.5-3.5V228c0-1.9 1.5-3.5 3.5-3.5h160.4c1.9 0 3.5 1.5 3.5 3.5v22.9zm0-60.9c0 1.9-1.5 3.5-3.5 3.5H337.5c-1.9 0-3.5-1.5-3.5-3.5v-22.8c0-1.9 1.5-3.5 3.5-3.5h160.4c1.9 0 3.5 1.5 3.5 3.5V190z"
                     fill="currentColor"
                     style={Object {}}
                   />
@@ -559,7 +550,7 @@ exports[`index should render correctly 1`] = `
                         }
                       }
                     >
-                      Xplora
+                      Divulgación
                     </h2>
                   </div>
                 </div>
@@ -569,7 +560,7 @@ exports[`index should render correctly 1`] = `
                   <div
                     className="col"
                   >
-                    Aca vas a poder encontrar entrevistas a investigadores y videos animados que esperamos les despierten la misma curiosidad que a nosotres
+                    Aca vas a poder encontrar desde entrevistas hasta datos curiosos y animales impresionantes.
                   </div>
                 </div>
               </div>

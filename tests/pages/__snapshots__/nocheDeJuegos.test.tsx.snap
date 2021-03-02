@@ -73,30 +73,21 @@ exports[`nocheDeJuegos should render correctly 1`] = `
           </a>
           <a
             className="nav-link"
-            data-rb-event-key="/pabellonF"
-            href="/pabellonF"
+            data-rb-event-key="/podcasts"
+            href="/podcasts"
             onClick={[Function]}
             onKeyDown={[Function]}
           >
-            Pabellon F
+            Podcasts
           </a>
           <a
             className="nav-link"
-            data-rb-event-key="/tournament"
-            href="/tournament"
+            data-rb-event-key="/divulgacion"
+            href="/divulgacion"
             onClick={[Function]}
             onKeyDown={[Function]}
           >
-            Torneos
-          </a>
-          <a
-            className="nav-link"
-            data-rb-event-key="/xplora"
-            href="/xplora"
-            onClick={[Function]}
-            onKeyDown={[Function]}
-          >
-            Xplora
+            Divulgación
           </a>
         </div>
         <div

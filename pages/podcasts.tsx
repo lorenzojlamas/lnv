@@ -7,7 +7,7 @@ import { BasePageWithCards } from '../components/BasePageWithCards';
 export default class PabellonF extends Component {
   render() {
     const title1 = 'Pabellon F';
-    const title = 'Pabellon F';
+    const title = 'Zaboo Mafut';
     const pabellonFIcon1 = <FontAwesomeIcon icon={faPodcast} />;
     const redesIcons: IconProps[] = [
       {
@@ -43,6 +43,14 @@ export default class PabellonF extends Component {
         link: 'https://forms.gle/GGsV4joZ3QgsXBse8',
       },
     ];
+    const redesIcons1: IconProps[] = [
+      {
+        tooltipText: 'Spotify',
+        channel: Channels.SPOTIFY,
+        link:
+          'https://open.spotify.com/show/3D7YTafrf5mhXXD5SmgdIz?si=-TxmjKlvT6iV_sNSIEQnxQ',
+      },
+    ];
     const body1: JSX.Element = (
       <Container>
         <p>
@@ -54,13 +62,31 @@ export default class PabellonF extends Component {
         <RedesIcons icons={redesIcons} />
       </Container>
     );
+
+    const body: JSX.Element = (
+      <Container>
+        <p>
+          Un podcast de bolsillo para divulgación científica, con datos, papers
+          y un presentador de esos que aparecen en los trailers de cine.
+        </p>
+
+        <RedesIcons icons={redesIcons1} />
+      </Container>
+    );
+
     const cards = [
       {
         title: title1,
         icon: pabellonFIcon1,
         body: body1,
       },
+      {
+        title: title,
+        icon: pabellonFIcon1,
+        body: body,
+      },
     ];
+
     return <BasePageWithCards title={title} cards={cards} />;
   }
 }

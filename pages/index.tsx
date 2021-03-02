@@ -10,16 +10,16 @@ import {
   faGamepad,
   faComments,
 } from '@fortawesome/free-solid-svg-icons';
-import { faYoutube } from '@fortawesome/free-brands-svg-icons';
+import { faReadme } from '@fortawesome/free-brands-svg-icons';
 
 import { LeftTitle } from '../components/Titles/LeftTitle';
 import { RightTitle } from '../components/Titles/RightTitle';
 
 const nocheDeJuegosIcon = <FontAwesomeIcon icon={faHeadphones} size="4x" />;
 const salasDeDiscordIcon = <FontAwesomeIcon icon={faComments} size="4x" />;
-const pabellonFIcon = <FontAwesomeIcon icon={faPodcast} size="4x" />;
+const podcastIcon = <FontAwesomeIcon icon={faPodcast} size="4x" />;
 const tournamentsIcon = <FontAwesomeIcon icon={faTrophy} size="4x" />;
-const exploraIcon = <FontAwesomeIcon icon={faYoutube} size="4x" />;
+const divulgacionIcon = <FontAwesomeIcon icon={faReadme} size="4x" />;
 const exactasJuegaIcon = <FontAwesomeIcon icon={faGamepad} size="4x" />;
 const styles = {
   paddingTop: '3vh',
@@ -45,11 +45,11 @@ const IndexPage = () => (
         linkTo="/discord"
       />
       <LeftTitle
-        name="Pabellon F"
-        icon={pabellonFIcon}
-        text="Un podcast hecho por estudiantess"
+        name="Podcasts"
+        icon={podcastIcon}
+        text="Hecho por estudiantes para debatir sobre cosas interesantes o bien hablar de lo hermosa que es nuestra facultad."
         styles={styles}
-        linkTo="/pabellonF"
+        linkTo="/podcasts"
       />
       <RightTitle
         name="Torneos"
@@ -59,11 +59,11 @@ const IndexPage = () => (
         linkTo="/tournament"
       />
       <LeftTitle
-        name="Xplora"
-        icon={exploraIcon}
-        text="Aca vas a poder encontrar entrevistas a investigadores y videos animados que esperamos les despierten la misma curiosidad que a nosotres"
+        name="Divulgación"
+        icon={divulgacionIcon}
+        text="Aca vas a poder encontrar desde entrevistas hasta datos curiosos y animales impresionantes."
         styles={styles}
-        linkTo="/xplora"
+        linkTo="/divulgacion"
       />
       <RightTitle
         name="Exactas juega"
