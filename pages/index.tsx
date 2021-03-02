@@ -61,7 +61,6 @@ const IndexPage = () => (
       <LeftTitle
         name="Divulgación"
         icon={exploraIcon}
-        icon={exploraIcon}
         text="Aca vas a poder encontrar desde entrevistas hasta datos curiosos y animales impresionantes."
         styles={styles}
         linkTo="/xplora"
